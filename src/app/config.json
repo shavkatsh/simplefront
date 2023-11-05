@@ -1,0 +1,13 @@
+
+{
+  "tokenExpiresIn": 3600, 
+  "maxTimeAfterTokenExpiredInSec": 1200,
+  "defaultLanguageId": 1,
+  "defaultLanguageShort": "EN",
+  "defaultLanguageSettings":{"id":1,"code":"en-US","source":"JSON"},
+  "A" : "285647asdio3456ngh67sie9345ndgfiy76eh4g",
+  "P" : "274455647asdicvkpunhm8934o3dfgsd34564fghs",
+  "loadBySection" : false,
+  "useDuplicateContactInfo" :false,
+  "useDuplicateEntity" : true
+}

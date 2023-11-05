@@ -1,0 +1,346 @@
+    {
+     "1":  {
+            "Language": { 
+                "info" : { "lang_id":1,"lang_short":"en-US","lang_long":"English(US)"}
+            },
+            "UserList,Label": {
+                "allUsers" : {  "item_text":	"All users"},
+                "pendingActivation" : {  "item_text":	"Users pending activation"},
+                "action" : {  "item_text":	"Action"},
+                "lastUpdated" : {  "item_text":	"Last updated"},
+                "currentStatus":{  "item_text":	"Current Status"},
+                "activation":{  "item_text":	"Activation"},
+                "wasactivated" : { "item_text":	"The user was activated"},
+                "username" : { "item_text":	"User name"  , "help_text": "user name is required", "err_msg" : "must be at least two characters"},
+                "rate" :{ "item_text":	"Rate" , "help_text": "Enter the rate/price amount","err_msg" : "Must be numeric"},
+                "ratetype" :{ "item_text":	"Rate type" },
+                "rateperhour":{ "item_text":	"Per hour" },
+                "ratepermonth":{ "item_text": "Per month" },
+                "ratefree":{ "item_text":	"Free of charge"},
+                "paygroup":{ "item_text":	"Pay group"},
+                "usergroups":{ "item_text":	"User group(s)"},
+                "ofusers": { "item_text":	 "users"},
+                "ofuser": { "item_text":	 "user"},
+                "nofound": { "item_text":	 "No users"},
+                "found":  { "item_text":	 "found"},
+                "oneuser":  { "item_text":	 "user"},
+                "foundsingle":  { "item_text":	 "found"}
+            },
+            "Users,EditUser": {
+                "selectLanguage" :{  "item_text": "Select language", "help_text": "Select interface language", "err_msg" : ""  },
+                "email": {"item_text":	"E-mail"  , "help_text": "Email is a required field"	,  "err_msg" : "Incorrect email format"},
+                "username" : { "item_text":	"User name"  , "help_text": "User name is required", "err_msg" : "must be at least two characters"}, 
+                "sex": {  "item_text":	"Select your sex"},
+                "sexmale" : {  "item_text":	"Male"},
+                "sexfemale" : { "item_text":	"Female"},
+                "sexother"	:{ "item_text":	"Other"},
+                "update"	:{     "item_text":	"Update"},
+                "phone" :{ "item_text":	"Cell Phone", "help_text": "+country-code and full number","err_msg" : ""},
+                "address":{  "item_text":	"Address" , "help_text": "Street address","err_msg" : ""},
+                "city" :{ "item_text":	"City" , "help_text": "City/town","err_msg" : ""},
+                "state" :{ "item_text":	"State/Province" , "help_text": "State","err_msg" : ""},
+                "zip" :{ "item_text":	"Zip/Post index" , "help_text": "ZIP code","err_msg" : ""},
+                "rate" :{ "item_text":	"Rate" , "help_text": "Enter the rate/price amount","err_msg" : "Must be numeric"},
+                "ratetype" :{ "item_text":	"Select the rate type" },
+                "rateperhour":{ "item_text":	"Per hour" },
+                "ratepermonth":{ "item_text": "Per month" },
+                "ratefree":{ "item_text":	"Free of charge"},
+                "country":{ "item_text":	"Country"},
+                "paygroup":{ "item_text":	"Pay group"},
+                "usergroups":{ "item_text":	"User group(s)"}
+            },
+            "Users,NavButton": {
+                "back"	: {   "item_text":	"Back"}
+            },
+            "NavBar,Logged": {
+                "profile" : { "item_text":	"Profile"},
+                "logout":{ "item_text":	"Logout"}
+            },
+            "NavBar,NotLogged": {
+                "login"   :{ "item_text":  "Login"	},
+                "aboutschool":{ "item_text":	"About school"},
+                "contactteacher":{ "item_text":	"Contact us"}
+            },
+            "NavBar,regularUsers": {
+                "main":{  "item_text":	"Main"},
+                "schedule":{  "item_text":	"Schedule"},
+                "homework":{  "item_text":	"Homework"},
+                "messages":{  "item_text":	"Messages"},
+                "payments":{  "item_text":	"Payments"},
+                "communication":{  "item_text":	"Communication"}
+            },
+            "NavBar,adminUser": {
+                "editusers":{  "item_text":	"Users"},
+                "activation":{  "item_text":	"Activation"},
+                "editprice":{  "item_text":	"Price"},
+                "editblogs":{  "item_text":	"Edit Blogs"},
+                "editnews":{  "item_text":	"Edit news"},
+                "editgallery":{  "item_text":	"Edit gallery"},
+                "edithomework":{  "item_text":	"Edit Home Works"},
+                "editfeedback":{  "item_text":	"Edit Feedbacks"},
+                "editannouncements":{  "item_text":	"Edit Announcements"},
+                "userview":{  "item_text":	"View for users"},
+                "nologgedview":{  "item_text":	"View for not logged"}
+            },
+            "NavBar,notAdmin": {
+                "pricelist":{  "item_text":	"Price List"},
+                "gallery":{  "item_text":	"Gallery"},
+                "feedback":{  "item_text":	"Feedback"}
+            },
+            "LoginForm,Header": {
+                "header"	:{ "item_text":	"Login"	  }
+            },
+            "LoginForm,Label": {
+                "email"	  :{ "item_text":	"E-mail"  , "help_text": "Email is a required field"	,  "err_msg" : "Incorrect email format" },
+                "password" :{ "item_text":	"Password"  , "help_text": "Password is a required field",  "err_msg" : "Must be at least 8 characters" },
+                "passwordmsg1" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Password should have at least one uppercase character" },
+                "passwordmsg2" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Password should have at least one number" },
+                "stayin"	  :{ "item_text":	"Stay in the system"  , "help_text": "",  "err_msg" : "" },
+                "donthave" :{ "item_text":	"Don't have account?" }
+            },
+            "LoginForm,Button": {
+                "submit"	  :{ "item_text":	"Submit"	  }
+            },
+            "LoginForm,Link": {
+                "signup"	  :{ "item_text":	"Sign Up"	  }
+            },
+            "RegisterForm,Header": {
+                "header"	 :{ "item_text":	"Register"	}
+            },
+            "RegisterForm,Label": {
+                "email"	  :{ "item_text":	"E-mail", "help_text": "Email is a required field"	,  "err_msg" : "Incorrect email format"},
+                "username" : { "item_text":	"User name"  , "help_text": "user name is required", "err_msg" : "must be at least two characters"},
+                "password" :{ "item_text":	"Password" , "help_text": "Password is a required field","err_msg" : "Must be at least 8 characters"},
+                "passwordmsg1" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Password should have at least one uppercase character" },
+                "passwordmsg2" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Password should have at least one number" },
+                "phone" :{ "item_text":	"Cell Phone", "help_text": "+country-code and full number","err_msg" : ""},
+                "address" :{ "item_text":	"Address" , "help_text": "Street address","err_msg" : ""},
+                "city" :{ "item_text":	"City" , "help_text": "City/town","err_msg" : ""},
+                "state" :{ "item_text":	"State/Province" , "help_text": "State","err_msg" : ""},
+                "zip" :{ "item_text":	"Zip/Post index" , "help_text": "ZIP code","err_msg" : ""},
+                "agreement" :{ "item_text":	"Agree to conditions?"   , "help_text": "Please confirm that you agree to service agreement", "err_msg" : ""},
+                "alreadyhave" :{ "item_text":	"Already have account?" }                
+            },
+            "RegisterForm,Button": {
+                "submit"	:{ "item_text":	"Submit"}
+            },
+            "RegisterForm,Link": {
+                "signin"	:{ "item_text":	"Sign In"}
+            },
+            "Errors,Messages": {
+                "somethingwrong"	:{ "item_text":	"Something went wrong!"}
+            },
+            "Dialogs,Activation": {
+                "title"	:{ "item_text":	"Confirm Activation"},
+                "question":{ "item_text":	"Are you sure you want to activate the user?"},
+                "yes"	:{ "item_text":	"Yes"},
+                "cancel"	:{ "item_text":	"Cancel"},
+                "no"	:{ "item_text":	"No"},
+                "ok"	:{ "item_text":	"OK"}
+            },
+            "Dialogs,messages": {
+                "replyDialogTitle": { "item_text":"Reply to the message"},
+                "replyDialogQuestion": { "item_text":"Want to reply?"},
+                "deleteDialogTitle": { "item_text":"Delete"},
+                "deleteDialogQuestion": { "item_text":"Are you sure you want to delete this message?"},
+                "yes"	:{ "item_text":	"Yes"},
+                "cancel"	:{ "item_text":	"Cancel"},
+                "no"	:{ "item_text":	"No"},
+                "ok"	:{ "item_text":	"OK"},
+                "deleted" : { "item_text":	"Deleted"},
+                "send":  { "item_text":"Send the message"}
+            },            
+            "Messages,Label": {
+                "content"	:{ "item_text":	"Content"},
+                "from":{ "item_text":	"From"},
+                "for":{ "item_text":	"For"},
+                "received" : {  "item_text":	"Received"},
+                "messageListTitle": { "item_text":	"Messages"},
+                "nofound": { "item_text":	 "No messages"},
+                "alert":  { "item_text":"Alert"},
+                "replyneeded":  { "item_text":"Reply requested"},
+                "notification":  { "item_text":"Notification"},
+                "defaulthover":  { "item_text":"Message"},
+                "deletehover":  { "item_text":"Delete"},
+                "replyhover":  { "item_text":"Reply"},
+                "viewhover":  { "item_text":"View related messages"},
+                "notopened":  { "item_text":"Not opened yet"},
+                "opened":  { "item_text":"Opened"},
+                "deleted":  { "item_text":"The message was deleted"},
+                "messagesent":  { "item_text":"Message sent"}
+            }
+
+        },
+    "2":  {
+            "Language": {
+                "info" : {"lang_id":2,"lang_short":"ru-RU","lang_long":"Русский"}
+            },
+            "UserList,Label": {
+                "allUsers" : {  "item_text":	"Все пользователи"},
+                "pendingActivation" : {  "item_text":	"Пользователи, ожидающие активации"},
+                "action" : {  "item_text":	"Действие"},
+                "lastUpdated" : {  "item_text":	"Обновленно"},
+                "currentStatus":{  "item_text":	"Текущий статус"},
+                "activation":{  "item_text":	"Активация"},
+                "wasactivated" : { "item_text":	"Пользователь был активирован"},
+                "username" : { "item_text":	"Имя пользователя"  , "help_text": "Имя пользователя обязательно для заполнения", "err_msg" : "must be at least two characters"},
+                "rate" :{ "item_text":	"Стоимость" , "help_text": "Введите стоимость","err_msg" : "Цена должна быть числом"},
+                "ratetype" :{ "item_text":	"Тип оплаты" },
+                "rateperhour" :{ "item_text":	"Почасовая" },
+                "ratepermonth" :{ "item_text":	"Помесячная" },
+                "ratefree" :{ "item_text":	"Бесплатно" },
+                "paygroup":{ "item_text":	"Платежная группа"},
+                "usergroups":{ "item_text":	"Пользовательские группы"},
+                "ofusers": { "item_text":	 "пользователей"},
+                "ofuser": { "item_text":	 "пользователя"},
+                "nofound": { "item_text":	 "Нет пользователей"},
+                "found":  { "item_text":	 "найдено"},
+                "oneuser":  { "item_text":	 "пользователь"},
+                "foundsingle":  { "item_text":	 "найден"}
+            },
+            "Users,EditUser": {
+                "selectLanguage" :{  "item_text":	"Выберите язык интерфейса", "help_text": "Выберите язык интерфейса", "err_msg" : ""},
+                "email" :{"item_text":	"Электронная почта" , "help_text": "Электронная почта обязательна для заполнения"	,"err_msg" : "Адрес эл. почты введен некорректно" },
+                "username"  :{"item_text":	"Имя пользователя"  , "help_text": "Имя пользователя обязательно для заполнения", "err_msg" : "как минимум 2 символа"},
+                "sex"	  :{"item_text":	"Выберите ваш пол"},
+                "sexmale"	   :{"item_text":	"Мужской"},
+                "sexfemale"	   :{"item_text":	"Женский"},
+                "sexother"	   :{"item_text":	"Другое"},
+                "update"	   :{"item_text":	"Обновить"},
+                "phone" :{"item_text":	"Сотовый телефон", "help_text": "+country-code and full number","err_msg" : ""},
+                "address" :{"item_text":	"Адрес" , "help_text": "Улица, дом, квартира","err_msg" : ""},
+                "city" :{ "item_text":	"Город" , "help_text": "Город/поселок","err_msg" : ""},
+                "state" :{ "item_text":	"Республика/Область/Край" , "help_text": "State","err_msg" : ""},
+                "zip" :{ "item_text":	"Почтовый индекс" },
+                "rate" :{ "item_text":	"Стоимость" , "help_text": "Введите стоимость","err_msg" : "Цена должна быть числом"},
+                "ratetype" :{ "item_text":	"Выберите тип оплаты" },
+                "rateperhour" :{ "item_text":	"Почасовая" },
+                "ratepermonth" :{ "item_text":	"Помесячная" },
+                "ratefree" :{ "item_text":	"Бесплатно" },
+                "country" :{ "item_text":	"Страна" },
+                "paygroup":{ "item_text":	"Платежная группа"},
+                "usergroups" :{ "item_text": "Пользовательские группы" }
+            },
+            "Users,NavButton": {
+                "back"	: {   "item_text":	"Назад"}
+            },
+            "NavBar,Logged": {
+                "profile" :{ "item_text":	"Профиль"	},
+                "logout":{ "item_text":	"Выход"	 }
+            },
+            "NavBar,NotLogged": {
+                "login"   :{ "item_text":  "Вход"	 },     
+                "aboutschool":{ "item_text":	"О школе"},
+                "contactteacher":{ "item_text":	"Связаться с учителем"}
+            },
+            "NavBar,regularUsers": {
+                "main" :{  "item_text":	"Главная"},
+                "schedule":{  "item_text":	"Расписание"},
+                "homework":{  "item_text":	"Домашнее задание"},
+                "messages":{  "item_text":	"Личные сообщения"},
+                "payments":{  "item_text":	"Платежи"},
+                "communication":{  "item_text":	"Общение"}
+            },
+            "NavBar,adminUser": {
+                "editusers":{  "item_text":	"Пользователи"},
+                "activation":{  "item_text":	"Активация"},
+                "editprice":{  "item_text":	"Расценки"},
+                "editblogs":{  "item_text":	"Блоги"},
+                "editnews":{  "item_text":	"Новости"},
+                "editgallery":{  "item_text":	"Галерея"},
+                "edithomework":{  "item_text":	"Домашние задания"},
+                "editfeedback":{  "item_text":	"Отзывы"},
+                "editannouncements":{  "item_text":	"Объявления"},
+                "userview":{  "item_text":	"Вид для пользователя"},
+                "nologgedview":{  "item_text":	"Вид для незалогированных"}
+            },
+            "NavBar,notAdmin": {
+                "pricelist":{  "item_text":	"Расценки"},
+                "gallery":{  "item_text":	"Галерея"},
+                "feedback":{  "item_text":	"Отзывы"}                
+            },
+            "LoginForm,Header": {
+                "header"	:{ "item_text":	"Вход"	 , "help_text": "",  "err_msg" : "" }
+            },
+            "LoginForm,Label": {
+                "email"	  :{ "item_text":	"Электронная почта" , "help_text": "Электронная почта обязательна для заполнения"	,"err_msg" : "Адрес эл. почты введен некорректно" },
+                "password" :{ "item_text":	"Пароль"  , "help_text": "Пароль обязателен для заполнения",  "err_msg" : "Пароль должен состоять минимум из 8 символов" },
+                "passwordmsg1" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Пароль должен содержать хотя бы одну заглавную букву" },
+                "passwordmsg2" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Пароль должен содержать хотя бы одно число" },
+                "stayin"	  :{ "item_text":	"Оставаться в системе" , "help_text": "",  "err_msg" : "" },
+                "donthave" :{ "item_text":	"Нет учётной записи?" , "help_text": "",  "err_msg" : "" }                
+            },
+            "LoginForm,Button": {
+                "submit"	  :{ "item_text":	"Отправить"  }
+            },
+            "LoginForm,Link": {
+                "signup"	  :{ "item_text":	"Зарегистрироваться", "help_text": "",  "err_msg" : "" }
+            },
+            "RegisterForm,Header": {
+                "header"	  :{ "item_text":	"Регистрация"	}
+            },
+            "RegisterForm,Label": {
+                "email"	  :{ "item_text":	"Электронная почта", "help_text": "Электронная почта обязательна для заполнения","err_msg" : "Адрес эл. почты введен некорректно"},
+                "username"  :{"item_text":	"Имя пользователя"  , "help_text": "Имя пользователя обязательно для заполнения", "err_msg" : "как минимум 2 символа"},                
+                "password" :{ "item_text":	"Пароль" , "help_text": "Пароль обязателен для заполнения","err_msg" : "Пароль должен состоять минимум из 8 символов"},
+                "passwordmsg1" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Пароль должен содержать хотя бы одну заглавную букву" },
+                "passwordmsg2" :{ "item_text":	""  , "help_text": "",  "err_msg" : "Пароль должен содержать хотя бы одно число" },
+                "phone" :{ "item_text":	"Сотовый телефон", "help_text": "+country-code and full number","err_msg" : ""},
+                "address" :{ "item_text":	"Адрес" , "help_text": "Улица, дом, квартира","err_msg" : ""},
+                "city" :{ "item_text":	"Город" , "help_text": "Город/поселок","err_msg" : ""},
+                "state" :{ "item_text":	"Республика/Область/Край" , "help_text": "State","err_msg" : ""},
+                "zip" :{ "item_text":	"Почтовый индекс" },
+                "agreement" :{ "item_text":	"Согласны на условия соглашения?"   , "help_text": "Согласны на условия предоставления услуг?", "err_msg" : ""},
+                "alreadyhave" :{ "item_text":	"Зарегистрированны?" }                
+            },
+            "RegisterForm,Button": {
+                "submit"	 :{ "item_text":	"Отправить"}
+            },
+            "RegisterForm,Link": {
+                "signin":{ "item_text":	"Войти"}
+            },
+            "Errors,Messages": {
+                "somethingwrong"	:{ "item_text":	"Что-то пошло не так!"}
+            },
+            "Dialogs,Activation": {
+                "title"	:{ "item_text":	"Подтвердите активацию"},
+                "question":{ "item_text":	"Вы уверены в активации?"},
+                "yes"	:{ "item_text":	"Да"},
+                "cancel"	:{ "item_text":	"Отменить"},
+                "no"	:{ "item_text":	"Нет"},
+                "ok"	:{ "item_text":	"OK"}
+            },
+            "Dialogs,messages": {
+                "replyDialogTitle": { "item_text":"Ответить на сообщение"},
+                "replyDialogQuestion": { "item_text":"Хотите ответить?"},
+                "deleteDialogTitle": { "item_text":"Удаление"},
+                "deleteDialogQuestion": { "item_text":"Вы уверены что хотите удалить это сообщение?"},
+                "yes"	:{ "item_text":	"Да"},
+                "cancel"	:{ "item_text":	"Отменить"},
+                "no"	:{ "item_text":	"Нет"},
+                "ok"	:{ "item_text":	"OK"},
+                "deleted" : { "item_text":	"Удалено"},
+                "send":  { "item_text":"Отправить сообщение"}
+            },            
+            "Messages,Label": {
+                "content"	:{ "item_text":	"Содержание"},
+                "from":{ "item_text":	"От кого"},
+                "for":{ "item_text":	"Кому"},
+                "received" : {  "item_text":	"Получено"},
+                "messageListTitle": { "item_text":	"Сообщения"},
+                "nofound": { "item_text":	 "Нет сообщений"},
+                "alert":  { "item_text":"Внимание!"},
+                "replyneeded":  { "item_text":"Требуется ответ"},
+                "notification":  { "item_text":"Уведомление"},
+                "defaulthover":  { "item_text":"Сообщение"},
+                "deletehover":  { "item_text":"Удалить"},
+                "replyhover":  { "item_text":"Ответить"},
+                "viewhover":  { "item_text":"Смотреть все связанные сообщения"},
+                "notopened":  { "item_text":"Непрочитанное"},
+                "opened":  { "item_text":"Прочитанное"},
+                "deleted":  { "item_text":"Сообщение удалено"},
+                "messagesent":  { "item_text":"Сообщение отправлено"}
+            }
+        }
+    }
+            

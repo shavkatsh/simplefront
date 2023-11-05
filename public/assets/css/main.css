@@ -1,0 +1,7 @@
+#jumbotron {
+  text-align: center;
+  padding: 40px;
+  background-image: url("../../assets/img/products/1.jpg");
+  background-size: cover;
+}
+
